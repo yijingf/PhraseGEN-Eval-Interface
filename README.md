@@ -266,16 +266,3 @@ Every new test class has to implement at least four new functions:
 * `readRatings(TestIdx)` is intended to read the ratings for \texttt{TestIdx} from `this.TestState.Ratings[TestIdx]` and to reapply them to the sliders or buttons in the DOM. This is primarily used during switching back and forth in the test sequence.
 
 * `formatResults(TestIdx)` is automatically called after the final test in the sequence. It is supposed to evaluate and summarize the ratings and to store the final results in `this.TestState.EvalResults`. It should return a string containing the results formatted in a human readable manner (HTML). This will be presented to the listener after the last test and the `EvalResults` structure may be send to a web service (see [Online Submission](#online-submission)).
-
-
-# 7. Contact #
-
-<http://hsu-ant.github.io/beaqlejs>
-
-skraft (AT) hsu-hh.de
-
-
-# 8. License #
-
-The complete sources, html and script files as well as images are released under the *GPLv3
-license*. A copy of the GPL is provided in the `LICENSE.txt` file.
